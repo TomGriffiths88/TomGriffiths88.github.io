@@ -1,0 +1,28 @@
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    /* margin-left: auto; */
+}
+
+.navbar__item {
+    margin: 5px;
+}
+
+.navbar  a:link, a:visited {
+    text-decoration: none;
+    color: #666c;
+    transition: all 0.3s;
+}
+
+.navbar a:hover, a:active {
+    border-bottom: 2px solid #111;
+    color: #111;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar {
+        margin-left: unset;
+    }
+}
